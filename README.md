@@ -26,6 +26,7 @@
     ```
 1. Make changes and commit each logical change with descriptive message
 ## 3. To commit the changes
+1. Inside your working branch
     ```zsh
     # check the changed files
     $ git status
