@@ -59,10 +59,10 @@
     ```zsh
     $ git push -u origin <branch-name>
     ```
-## 5. To delete a block of code
+## 5. To delete a block of code (Dead Code Removal)
 1. Comment the block of code and make your required changes
 1. Commit the changes describing the changes you made [as discussed above](#3-to-commit-the-changes)
 1. Delete the commented code with this message format 
     ```zsh
-    $ git commit -m "[Dead Code Removal] <Describe the code block functionality>"
+    $ git commit -m "[DCR] <Describe the code block functionality>"
     ```
