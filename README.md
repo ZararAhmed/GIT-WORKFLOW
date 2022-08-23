@@ -37,7 +37,7 @@
 
     # to stage all changes at once 
     $ git add .
-    # make sure any file you didn't change shouldn't be appeared in red in git status
+    # make sure any file you didn't change shouldn't appear in red in git status
 
     # commit the changes
     $ git commit -m "[Add/Modify/Hotfix] <MESSAGE>"
