@@ -18,7 +18,7 @@
 1. Create a `<branch-name>` branch from `dev` branch
     ```zsh
     $ git checkout -b <branch-name> dev
-    # branch-name must contain add/, modify/ or hotfix/ 
+    # branch-name must contain add/, modify/, fix/ or hotfix/ 
     # e.g. add/feature-name for new feature or hotfix/bug-name for hotfix
 
     # push new-branch to remote repository
@@ -40,7 +40,7 @@
     # make sure any file you didn't change shouldn't appear in red in git status
 
     # commit the changes
-    $ git commit -m "[Add/Modify/Hotfix] <MESSAGE>"
+    $ git commit -m "[TICKET-NO/ISSUE-NO][Add/Modify/Fix/Hotfix] <MESSAGE>"
     # Message must be descriptive and relevent to the changes in the code
     ```
 ## 4. To submit merge request
